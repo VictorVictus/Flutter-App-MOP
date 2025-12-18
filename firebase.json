@@ -1,16 +1,1 @@
-{
-  "hosting": {
-    "public": "build/web",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
-  }
-}
+{"hosting":{"public":"build/web","ignore":["firebase.json","**/.*","**/node_modules/**"],"rewrites":[{"source":"**","destination":"/index.html"}]},"flutter":{"platforms":{"android":{"default":{"projectId":"mopappflutter","appId":"1:659428463256:android:b918a85d42ac5b151fb6ed","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"mopappflutter","configurations":{"android":"1:659428463256:android:b918a85d42ac5b151fb6ed","web":"1:659428463256:web:b25391dd276465d41fb6ed","windows":"1:659428463256:web:60d3792947e9ed921fb6ed"}}}}}}
